@@ -1,0 +1,70 @@
+/* গ্লোবাল স্টাইল */
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+span { color: #00d2ff; } /* টেক্সটে নীল হাইলাইট */
+
+/* নেভিগেশন বার */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111;
+    border-bottom: 1px solid #333;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* হিরো সেকশন */
+.hero {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 { font-size: 50px; }
+
+/* স্কিল কার্ডস (নতুন ডিজাইন) */
+.skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    transition: 0.5s;
+}
+
+.card:hover {
+    border-color: #00d2ff;
+    box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+    transform: translateY(-10px);
+}
+
+/* তোমার সেই সিগনেচার গ্লোয়িং বাটন */
+.always-glow {
+    padding: 15px 40px;
+    background: #00d2ff;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 15px #00d2ff;
+    margin-top: 20px;
+}
